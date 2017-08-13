@@ -44,7 +44,7 @@ If supported Please specify funding source.
 - The performance of the computer to be used in the game. Requires Windows 7 operating system, Windows 8, or Windows 8.1, and kinematics are also available with 32-bit (x86) or 64-bit (x64) processing. DirectX 9.0c
 - The system can support 2 players, but because the developer has programmed for only one player, the game can be played at 1 pounder.
 
-## Screenshots on Mobile
+## Screenshots on PC
 
 ![img](https://github.com/kullawattana/CodeUnityGameTumyaProject/blob/CodeUnityGameTumyaProject/Screenshots%20Game/Slide1.PNG)
 
