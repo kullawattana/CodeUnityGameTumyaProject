@@ -14,17 +14,17 @@ If supported Please specify funding source.
 - True Corporation's with True Academy program supports the social and educational development of Thai youth.
 
 ## Optimization
-1.Presenting knowledge about herbs from medicine, chopped pills and herbal remedies through playing games.
+- Presenting knowledge about herbs from medicine, chopped pills and herbal remedies through playing games.
 - Herbal image design 10 herbal medicines from the study of drug formulas.
 - The drug store design through the basket. The design of the chopping knife through the knife into the herbal tray. And the design of pounding through the rump. By design function. By using JavaScript in programming to count points.
-2.Presenting gameplay patterns through body movements.
+- Presenting gameplay patterns through body movements.
 - The design of the collision function and the object button. To play games, herbal medicine chopped herbal medicine and herbal pills. Click the menu to enter the game in different pages. By moving through the ball. By using JavaScript to program the ball.
-3.Presentation of games in 2D and 3D using the Unified Development Program.
+- Presentation of games in 2D and 3D using the Unified Development Program.
 - Herbal image design 10 herbal medicine with 2D images from the elastomer program.
 - Design of herbal storage tank, herbal knives and herbal remedy mortar. And 3D props with the illusion program.
 - The design of the skin of the object within the game with the Unified program.
 - Lighting and adjust the angle of the camera to suit the game with the program.
-4.Teaching the use of herbal medicines in the form of gaming with the camera.
+- Teaching the use of herbal medicines in the form of gaming with the camera.
 - Design menu recommended herbal medicine. Weight ratio And the scores collected on each herbal medicine.
 - The design of the Hall of Fame for players to read the herbs that players accumulate at each level of play to cultivate knowledge of herbal medicine.
 
