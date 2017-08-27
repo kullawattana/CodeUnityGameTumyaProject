@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html class="no-js">
+    
+    <head>
+        <title>Admin Home Page</title>
+        <!-- Bootstrap -->
+		<meta charset="UTF-8">
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+        <link href="vendors/easypiechart/jquery.easy-pie-chart.css" rel="stylesheet" media="screen">
+        <link href="assets/styles.css" rel="stylesheet" media="screen">
+        <script src="vendors/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+		<script type="text/javascript" src="js/dashboard.min.js"></script>
+    </head>
+    
+    <body>
+        <div class="navbar navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container-fluid">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="#">Admin Game Panel</a>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav pull-right">
+                            <li class="dropdown">
+                                <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown"> <i class="icon-user"></i>Suttipong Kullawattana<i class="caret"></i>
+
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a tabindex="-1" href="#">Profile</a>
+                                    </li>
+                                    <li class="divider"></li>
+                                    <li>
+                                        <a tabindex="-1" href="login.html">Logout</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--/.nav-collapse -->
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span3" id="sidebar">
+                    <ul class="nav nav-list bs-docs-sidenav nav-collapse collapse">
+                        <li class="active">
+                            <a href="index.html"><i class="icon-chevron-right"></i> Dashboard</a>
+                        </li>
+						<li>
+                            <a href="tablesUsers.html"><i class="icon-chevron-right"></i> Tables Users</a>
+                        </li>
+						<li>
+                            <a href="tablesKeb.html"><i class="icon-chevron-right"></i> Tables Score (Kebya)</a>
+                        </li>
+						<li>
+                            <a href="tablesSubya.html"><i class="icon-chevron-right"></i> Tables Score (Subya)</a>
+                        </li>
+						<li>
+                            <a href="tablesTumya.html"><i class="icon-chevron-right"></i> Tables Score (Tumya)</a>
+                        </li>
+						<!--<li>
+                            <a href="tablesHall.html"><i class="icon-chevron-right"></i> Tables Hall of Frame</a>
+                        </li>-->
+						<li>
+                            <a href="tablesScore.html"><i class="icon-chevron-right"></i> Tables Score Result</a>
+                        </li>
+                        <!--<li>
+                            <a href="stats.html"><i class="icon-chevron-right"></i> Statistics (Charts)</a>
+                        </li>-->
+                        <li>
+                            <a href="#"><span class="badge badge-info pull-right">1,234</span>Users</a>
+                        </li>
+                        <li>
+                            <a href="#"><span class="badge badge-important pull-right">83</span>Game Problems</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!--/span-->
+                <div class="span9" id="content">
+                    <div class="row-fluid">
+                    <div class="row-fluid">
+                        <!-- block -->
+                        <div class="block">
+                            <div class="navbar navbar-inner block-header">
+                                <div class="muted pull-left">Statistics</div>
+                            </div>
+                            <div class="block-content collapse in">
+                                <div class="span3">
+                                    <div class="chart" data-percent="73">73%</div>
+                                    <div class="chart-bottom-heading"><span class="label label-info">จำนวนผู้สมัคร</span>
+
+                                    </div>
+                                </div>
+                                <div class="span3">
+                                    <div class="chart" data-percent="53">53%</div>
+                                    <div class="chart-bottom-heading"><span class="label label-info">จำนวนผู้เล่น</span>
+
+                                    </div>
+                                </div>
+                                <div class="span3">
+                                    <div class="chart" data-percent="83">83%</div>
+                                    <div class="chart-bottom-heading"><span class="label label-info">จำนวนสมุนไพร</span>
+										
+                                    </div>
+                                </div>
+                                <div class="span3">
+                                    <div class="chart" data-percent="13">13%</div>
+                                    <div class="chart-bottom-heading"><span class="label label-info">คะแนนสูงสุด</span>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /block -->
+                    </div>
+                    <div class="row-fluid">
+                        <div class="span12">
+                            <!-- block -->
+                            <div class="block">
+                                <div class="navbar navbar-inner block-header">
+                                    <div class="muted pull-left">จำนวนยาสมุนไพร</div>
+                                    <div class="pull-right"><span class="badge badge-info">10</span>
+
+                                    </div>
+                                </div>
+                                <div class="block-content collapse in">
+                                    <table class="table table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th>ID</th>
+                                                <th>Thai Name</th>
+												<th>จำนวนวัตถุดิบ</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>ยาทิงเจอร์ทองพันชั่ง</td>
+												<td>4 ชนิด</td>
+                                            </tr>
+											<tr>
+                                                <td>2</td>
+                                                <td>ยาเปลือกมังคุด</td>
+												<td>4 ชนิด</td>
+                                            </tr>
+											<tr>
+                                                <td>3</td>
+                                                <td>ยาแก้ไอผสมมะขามป้อม</td>
+												<td>7 ชนิด</td>
+                                            </tr>
+											<tr>
+                                                <td>4</td>
+                                                <td>ยาธาตุอบเชย</td>
+												<td>7 ชนิด</td>
+                                            </tr>
+											<tr>
+                                                <td>5</td>
+                                                <td>ยาลูกประคบ</td>
+												<td>8 ชนิด</td>
+                                            </tr>
+											<tr>
+                                                <td>6</td>
+                                                <td>ยาประสะกะเพรา</td>
+												<td>8 ชนิด</td>
+                                            </tr>
+											<tr>
+                                                <td>7</td>
+                                                <td>ยาจันทน์ลีลา</td>
+												<td>6 ชนิด</td>
+                                            </tr>
+											<tr>
+                                                <td>8</td>
+                                                <td>ยาหอมแก้ลมวิงเวียน</td>
+												<td>10 ชนิด</td>
+                                            </tr>
+											<tr>
+                                                <td>9</td>
+                                                <td>ยาประสะจันทน์แดง</td>
+												<td>10 ชนิด</td>
+                                            </tr>
+											<tr>
+                                                <td>10</td>
+                                                <td>ยาแก้ไอพื้นบ้านอีสาน</td>
+												<td>10 ชนิด</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <!-- /block -->
+                        </div>
+                    </div>
+                  
+                    <div class="row-fluid">
+                        <!-- block -->
+                        <div class="block">
+                            <div class="navbar navbar-inner block-header">
+                                <div class="muted pull-left">Herbal Gallery</div>
+                                <div class="pull-right"><span class="badge badge-info">10</span>
+                                </div>
+                            </div>
+                            <div class="block-content collapse in">
+                                <div class="row-fluid padd-bottom">
+                                  <div class="span3">
+                                      <a href="#" class="thumbnail">
+                                        <img data-src="holder.js/260x180" alt="260x180" style="width: 260px; height: 180px;" src="images/herbalLevel/level1.jpg">
+                                      </a>
+                                  </div>
+                                  <div class="span3">
+                                      <a href="#" class="thumbnail">
+                                        <img data-src="holder.js/260x180" alt="260x180" style="width: 260px; height: 180px;" src="images/herbalLevel/level2.jpg">
+                                      </a>
+                                  </div>
+                                  <div class="span3">
+                                      <a href="#" class="thumbnail">
+                                        <img data-src="holder.js/260x180" alt="260x180" style="width: 260px; height: 180px;" src="images/herbalLevel/level3.jpg">
+                                      </a>
+                                  </div>
+                                  <div class="span3">
+                                      <a href="#" class="thumbnail">
+                                        <img data-src="holder.js/260x180" alt="260x180" style="width: 260px; height: 180px;" src="images/herbalLevel/level4.jpg">
+                                      </a>
+                                  </div>
+                                </div>
+
+                                <div class="row-fluid padd-bottom">
+                                  <div class="span3">
+                                      <a href="#" class="thumbnail">
+                                        <img data-src="holder.js/260x180" alt="260x180" style="width: 260px; height: 180px;" src="images/herbalLevel/level5.jpg">
+                                      </a>
+                                  </div>
+                                  <div class="span3">
+                                      <a href="#" class="thumbnail">
+                                        <img data-src="holder.js/260x180" alt="260x180" style="width: 260px; height: 180px;" src="images/herbalLevel/level6.jpg">
+                                      </a>
+                                  </div>
+                                  <div class="span3">
+                                      <a href="#" class="thumbnail">
+                                        <img data-src="holder.js/260x180" alt="260x180" style="width: 260px; height: 180px;" src="images/herbalLevel/level7.jpg">
+                                      </a>
+                                  </div>
+                                  <div class="span3">
+                                      <a href="#" class="thumbnail">
+                                        <img data-src="holder.js/260x180" alt="260x180" style="width: 260px; height: 180px;" src="images/herbalLevel/level8.jpg">
+                                      </a>
+                                  </div>
+                                </div>
+
+                                <div class="row-fluid padd-bottom">
+                                  <div class="span3">
+                                      <a href="#" class="thumbnail">
+                                        <img data-src="holder.js/260x180" alt="260x180" style="width: 260px; height: 180px;" src="images/herbalLevel/level9.jpg">
+                                      </a>
+                                  </div>
+								   <div class="span3">
+                                      <a href="#" class="thumbnail">
+                                        <img data-src="holder.js/260x180" alt="260x180" style="width: 260px; height: 180px;" src="images/herbalLevel/level10.jpg">
+                                      </a>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /block -->
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <!--/.fluid-container-->
+        <script src="vendors/jquery-1.9.1.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="vendors/easypiechart/jquery.easy-pie-chart.js"></script>
+        <script src="assets/scripts.js"></script>
+        <script>
+        $(function() {
+            // Easy pie charts
+            $('.chart').easyPieChart({animate: 1000});
+        });
+        </script>
+    </body>
+</html>
